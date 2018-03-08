@@ -5,6 +5,7 @@ namespace VigenereWeb.Models
     public class VigenereViewModel
     {
         [Required]
+        [MinLength(1)]
         public string Mensaje { get; set; }
 
         [Required]
